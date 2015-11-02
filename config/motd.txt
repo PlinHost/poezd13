@@ -1,0 +1,3 @@
+<h1>Welcome to Space Station 13!</h1>
+
+<strong>Enjoy your stay!</strong>

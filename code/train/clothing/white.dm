@@ -13,12 +13,13 @@
 	name = "gymnasterka"
 	desc = "Not to be confused with gymnasts."
 	icon_state = "whiteguard"
-	body_parts_covered = UPPER_TORSO|LOWER_TORSO|LEGS|ARMS
+	body_parts_covered = UPPER_TORSO|LOWER_TORSO|ARMS
 
 /obj/item/clothing/suit/whiteguard/elite
 	name = "captain coat"
 	desc = ""
 	icon_state = "whiteguard_elite"
+	body_parts_covered = UPPER_TORSO|LOWER_TORSO|ARMS
 
 /obj/item/clothing/head/whiteguard
 	name = "soldier cap"
@@ -39,3 +40,8 @@
 	icon_state = "gusar"
 	item_color = "gusar"
 	flags = FPRINT | TABLEPASS
+
+/obj/item/clothing/suit/poruchik
+	name = "poruchik suit"
+	icon_state = "poruchik"
+	body_parts_covered = UPPER_TORSO|LOWER_TORSO|ARMS

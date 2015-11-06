@@ -118,18 +118,6 @@ var/list/ghostteleportlocs = list()
 	luminosity = 1
 	ul_Lighting = 0
 
-/area/shuttle/train/stop
-	icon_state = "shuttle"
-	requires_power = 0
-
-/area/shuttle/train/go
-	icon_state = "shuttle"
-	requires_power = 0
-
-/area/shuttle/train/gonight
-	icon_state = "shuttle"
-	requires_power = 0
-
 /area/shuttle/spaceship
 	name = "\improper Space Ship"
 	icon_state = "shuttle"
@@ -2411,6 +2399,7 @@ var/list/the_station_areas = list (
 	/area/turret_protected/ai_upload, //do not try to simplify to "/area/turret_protected" --rastaf0
 	/area/turret_protected/ai_upload_foyer,
 	/area/turret_protected/ai,
+	/area/train
 )
 
 

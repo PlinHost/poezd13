@@ -9,7 +9,9 @@ var/list/admin_verbs_default = list(
 	/client/proc/check_antagonists,		/*shows all antags*/
 	/client/proc/display_admin_reports,
 //	/client/proc/deadchat				/*toggles deadchat on/off*/
-	/client/proc/cmd_admin_say			/*admin-only ooc chat*/
+	/client/proc/cmd_admin_say,			/*admin-only ooc chat*/
+	/proc/move_train,
+	/proc/toggle_train
 	)
 var/list/admin_verbs_admin = list(
 	/client/proc/player_panel,			/*shows an interface for all players, with links to various panels (old style)*/

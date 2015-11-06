@@ -78,8 +78,6 @@
 #define DEBUG
 // END_PREFERENCES
 // BEGIN_INCLUDE
-#include "train.dm"
-#include "Poezd.dmm"
 #include "code\global.dm"
 #include "code\hub.dm"
 #include "code\names.dm"
@@ -1410,6 +1408,8 @@
 #include "code\modules\virus2\helpers.dm"
 #include "code\modules\virus2\isolator.dm"
 #include "code\modules\virus2\items_devices.dm"
+#include "code\train\shuttle.dm"
+#include "code\train\train.dm"
 #include "code\train\clothing\burgyi.dm"
 #include "code\train\clothing\controller.dm"
 #include "code\train\clothing\dress.dm"
@@ -1420,6 +1420,7 @@
 #include "code\train\item\passport.dm"
 #include "code\train\item\ticket.dm"
 #include "code\train\item\umbrella.dm"
+#include "code\train\weapon\nogun.dm"
 #include "code\train\weapon\sabre.dm"
 #include "code\TriDimension\controller.dm"
 #include "code\TriDimension\Movement.dm"
@@ -1530,5 +1531,5 @@
 #include "code\ZAS\Zone.dm"
 #include "interface\interface.dm"
 #include "interface\skin.dmf"
-#include "maps\encounters\telesat.dmm"
+#include "maps\Poezd.dmm"
 // END_INCLUDE

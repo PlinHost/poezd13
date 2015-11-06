@@ -29,7 +29,7 @@ proc/move_train()
 			fromArea = locate(/area/train/go)
 		toArea = locate(/area/train/stop)
 		train_location = 0
-		world << sound('train_loop.ogg', 1, 0, 917)
+		world << sound(null, 0, 0, 917)
 	else
 		fromArea = locate(/area/train/stop)
 		if(train_time)
@@ -37,7 +37,7 @@ proc/move_train()
 		else
 			toArea = locate(/area/train/go)
 		train_location = 1
-		world << sound(null, 0, 0, 917)
+		world << sound('train_loop.ogg', 1, 0, 917)
 	fromArea.move_contents_to(toArea)
 	return
 

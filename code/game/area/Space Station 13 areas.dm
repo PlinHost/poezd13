@@ -118,6 +118,18 @@ var/list/ghostteleportlocs = list()
 	luminosity = 1
 	ul_Lighting = 0
 
+/area/shuttle/train/stop
+	icon_state = "shuttle"
+	requires_power = 0
+
+/area/shuttle/train/go
+	icon_state = "shuttle"
+	requires_power = 0
+
+/area/shuttle/train/gonight
+	icon_state = "shuttle"
+	requires_power = 0
+
 /area/shuttle/spaceship
 	name = "\improper Space Ship"
 	icon_state = "shuttle"
@@ -2265,6 +2277,13 @@ area/assembly/podbay
 
 /area/awaymission/spacebattle/secret
 	name = "\improper Hidden Chamber"
+
+/area/awaymission/train
+	name = "\improper Train Station"
+	icon_state = "away"
+	luminosity = 1
+	ul_Lighting = 0
+	requires_power = 0
 
 /area/awaymission/listeningpost
 	name = "\improper Listening Post"

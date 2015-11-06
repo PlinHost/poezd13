@@ -12,86 +12,107 @@
 "al" = (/obj/effect/decal/cleanable/dirt,/obj/effect/landmark/start{name = "Unassigned"},/turf/simulated/floor/plating,/area)
 "am" = (/turf/simulated/floor/plating,/area)
 "an" = (/turf/simulated/mineral,/area)
-"ao" = (/turf/simulated/wall,/area/security/prison)
-"ap" = (/obj/structure/grille,/obj/structure/window/reinforced,/obj/structure/window/reinforced{dir = 1},/obj/structure/window/reinforced{dir = 8},/turf/simulated/floor/plating,/area/security/prison)
-"aq" = (/obj/structure/grille,/obj/structure/window/reinforced,/obj/structure/window/reinforced{dir = 1},/obj/structure/window/reinforced{dir = 4},/turf/simulated/floor/plating,/area/security/prison)
-"ar" = (/obj/structure/sign/double/barsign,/turf/simulated/wall,/area/security/prison)
-"as" = (/obj/effect/landmark{name = "JoinLate"},/obj/effect/landmark/start{name = "Captain"},/turf/simulated/floor,/area/security/prison)
-"at" = (/obj/item/clothing/suit/space/rig/syndi,/obj/item/clothing/mask/breath,/turf/simulated/floor,/area/security/prison)
-"au" = (/obj/item/weapon/screwdriver,/obj/structure/toilet,/turf/simulated/floor,/area/security/prison)
-"av" = (/obj/machinery/power/apc{cell_type = 12500; dir = 1; name = "North APC"; pixel_y = 24; start_charge = 100},/turf/simulated/floor,/area/security/prison)
-"aw" = (/turf/simulated/floor,/area/security/prison)
-"ax" = (/obj/machinery/light{dir = 1},/turf/simulated/floor,/area/security/prison)
-"ay" = (/obj/machinery/vrpod,/turf/simulated/floor,/area/security/prison)
-"az" = (/turf/space,/area/shuttle/escape_pod1/centcom)
-"aA" = (/obj/item/weapon/tank/emergency_oxygen/double,/turf/simulated/floor,/area/security/prison)
-"aB" = (/obj/item/clothing/head/helmet/space/rig/syndi,/turf/simulated/floor,/area/security/prison)
-"aC" = (/obj/item/weapon/kitchenknife,/turf/simulated/floor,/area/security/prison)
-"aD" = (/obj/machinery/door_control/vent_control{desc = "A heavy lever that hydraulically operates the primary reactor vents. Push it towards the core to open the vents."; id = "EngineVent"; name = "Emergency Vent Control"},/turf/simulated/floor,/area/security/prison)
-"aE" = (/obj/effect/landmark{name = "CyberSpace"},/turf/simulated/floor,/area/security/prison)
-"aF" = (/obj/structure/writersdesk,/turf/simulated/floor,/area/security/prison)
-"aG" = (/obj/machinery/light{icon_state = "tube1"; dir = 8},/obj/item/weapon/storage/toolbox/emergency,/turf/simulated/floor,/area/security/prison)
-"aH" = (/obj/item/weapon/storage/toolbox/electrical,/turf/simulated/floor,/area/security/prison)
-"aI" = (/obj/item/weapon/storage/toolbox/mechanical,/turf/simulated/floor,/area/security/prison)
-"aJ" = (/obj/item/device/healthanalyzer,/turf/simulated/floor,/area/security/prison)
-"aK" = (/obj/item/weapon/surgicaldrill,/turf/simulated/floor,/area/security/prison)
-"aL" = (/obj/machinery/bioprinter/prosthetics,/turf/simulated/floor,/area/security/prison)
-"aM" = (/obj/multiz/ladder,/turf/simulated/floor,/area/security/prison)
-"aN" = (/obj/machinery/computer/communications,/turf/simulated/floor,/area/security/prison)
-"aO" = (/obj/item/weapon/gun/energy/gun,/turf/simulated/floor,/area/security/prison)
-"aP" = (/obj/item/stack/sheet/glass{amount = 50},/turf/simulated/floor,/area/security/prison)
-"aQ" = (/obj/item/weapon/reagent_containers/glass/beaker,/obj/item/stack/sheet/metal{amount = 50},/turf/simulated/floor,/area/security/prison)
-"aR" = (/obj/item/stack/sheet/plasteel{amount = 50},/turf/simulated/floor,/area/security/prison)
-"aS" = (/obj/effect/landmark/start{name = "AI"},/turf/simulated/floor,/area/security/prison)
-"aT" = (/obj/machinery/mecha_part_fabricator,/turf/simulated/floor{icon_state = "white"},/area/security/prison)
-"aU" = (/obj/machinery/computer/rdconsole/robotics,/turf/simulated/floor{icon_state = "white"},/area/security/prison)
-"aV" = (/obj/item/weapon/reagent_containers/glass/bottle/urine,/obj/machinery/r_n_d/destructive_analyzer,/turf/simulated/floor{icon_state = "white"},/area/security/prison)
-"aW" = (/turf/simulated/floor/open,/area/security/prison)
-"aX" = (/obj/machinery/door/airlock/maintenance,/turf/simulated/floor,/area/security/prison)
-"aY" = (/obj/machinery/door/poddoor{icon_state = "pdoor1"; id = "EngineVent"; name = "Engine Core Vent"; p_open = 0},/turf/simulated/floor,/area/security/prison)
-"aZ" = (/turf/simulated/shuttle/wall{dir = 8; icon_state = "wall_space"},/area/shuttle/escape_pod1/station)
-"ba" = (/turf/simulated/shuttle/wall{tag = "icon-wall"; icon_state = "wall"; dir = 2},/area/shuttle/escape_pod1/station)
-"bb" = (/obj/structure/shuttle/window{icon = 'icons/turf/shuttle.dmi'; icon_state = "window1"},/turf/simulated/shuttle/floor,/area/shuttle/escape_pod1/station)
-"bc" = (/obj/machinery/door/unpowered/shuttle,/turf/simulated/shuttle/floor,/area/shuttle/escape_pod1/station)
-"bd" = (/turf/simulated/shuttle/wall{dir = 1; icon_state = "wall_space"},/area/shuttle/escape_pod1/station)
-"be" = (/turf/space/transit/west/shuttlespace_we11,/area/shuttle/escape_pod1/transit)
-"bf" = (/turf/space/transit/west/shuttlespace_we12,/area/shuttle/escape_pod1/transit)
-"bg" = (/turf/space/transit/west/shuttlespace_we13,/area/shuttle/escape_pod1/transit)
-"bh" = (/turf/space/transit/west/shuttlespace_we1,/area/shuttle/escape_pod1/transit)
-"bi" = (/turf/space/transit/west/shuttlespace_we2,/area/shuttle/escape_pod1/transit)
-"bj" = (/turf/space/transit/west/shuttlespace_we3,/area/shuttle/escape_pod1/transit)
-"bk" = (/turf/space/transit/west/shuttlespace_we4,/area/shuttle/escape_pod1/transit)
-"bl" = (/obj/machinery/light{dir = 1},/obj/structure/stool/bed/chair,/obj/machinery/camera/autoname,/turf/simulated/shuttle/floor,/area/shuttle/escape_pod1/station)
-"bm" = (/obj/structure/stool/bed/chair,/turf/simulated/shuttle/floor,/area/shuttle/escape_pod1/station)
-"bn" = (/obj/structure/closet/walllocker/emerglocker/north,/obj/structure/stool/bed/chair,/turf/simulated/shuttle/floor,/area/shuttle/escape_pod1/station)
-"bo" = (/turf/simulated/shuttle/floor,/area/shuttle/escape_pod1/station)
-"bp" = (/obj/machinery/light{dir = 1},/obj/structure/stool/bed/chair,/turf/simulated/shuttle/floor,/area/shuttle/escape_pod1/station)
-"bq" = (/turf/simulated/shuttle/wall{tag = "icon-wall (EAST)"; icon_state = "wall"; dir = 4},/area/shuttle/escape_pod1/station)
-"br" = (/turf/space/transit/west/shuttlespace_we6,/area/shuttle/escape_pod1/transit)
-"bs" = (/turf/space/transit/west/shuttlespace_we7,/area/shuttle/escape_pod1/transit)
-"bt" = (/turf/space/transit/west/shuttlespace_we8,/area/shuttle/escape_pod1/transit)
-"bu" = (/turf/space/transit/west/shuttlespace_we9,/area/shuttle/escape_pod1/transit)
-"bv" = (/turf/space/transit/west/shuttlespace_we10,/area/shuttle/escape_pod1/transit)
-"bw" = (/turf/space/transit/west/shuttlespace_we14,/area/shuttle/escape_pod1/transit)
-"bx" = (/obj/machinery/camera/autoname{dir = 8},/turf/simulated/shuttle/floor,/area/shuttle/escape_pod1/station)
-"by" = (/turf/space/transit/west/shuttlespace_we15,/area/shuttle/escape_pod1/transit)
-"bz" = (/obj/machinery/light,/obj/structure/stool/bed/chair{dir = 1},/turf/simulated/shuttle/floor,/area/shuttle/escape_pod1/station)
-"bA" = (/obj/structure/stool/bed/chair{dir = 1},/turf/simulated/shuttle/floor,/area/shuttle/escape_pod1/station)
-"bB" = (/obj/structure/closet/walllocker/emerglocker/south,/obj/structure/stool/bed/chair{dir = 1},/turf/simulated/shuttle/floor,/area/shuttle/escape_pod1/station)
-"bC" = (/turf/space/transit/west/shuttlespace_we5,/area/shuttle/escape_pod1/transit)
-"bD" = (/turf/simulated/shuttle/wall{icon_state = "wall_space"},/area/shuttle/escape_pod1/station)
-"bE" = (/turf/simulated/shuttle/wall{dir = 4; icon_state = "wall_space"},/area/shuttle/escape_pod1/station)
-"bF" = (/obj/effect/landmark/zcontroller{down = 1; down_target = 3; up = 0; up_target = 0},/turf/space,/area)
-"bG" = (/turf/simulated/wall,/area/bridge/meeting_room)
-"bH" = (/turf/simulated/floor,/area/bridge/meeting_room)
-"bI" = (/obj/machinery/portable_atmospherics/canister/toxins,/turf/simulated/floor,/area/bridge/meeting_room)
-"bJ" = (/obj/item/weapon/flame/lighter/zippo,/turf/simulated/floor,/area/bridge/meeting_room)
-"bK" = (/obj/multiz/ladder{icon_state = "ladderup"},/turf/simulated/floor,/area/bridge/meeting_room)
-"bL" = (/obj/machinery/portable_atmospherics/canister/oxygen,/turf/simulated/floor,/area/bridge/meeting_room)
-"bM" = (/obj/effect/landmark/zcontroller{down = 0; down_target = 0; up = 1; up_target = 2},/turf/space,/area)
-"bN" = (/turf/space,/area/chapel/main)
-"bO" = (/turf/simulated/floor/engine/vacuum,/area)
-"bP" = (/obj/effect/landmark/zcontroller{down = 1; down_target = 3},/turf/space,/area)
+"ao" = (/turf/simulated/wall/mineral/silver,/area/storage/eva)
+"ap" = (/obj/structure/rack,/obj/item/clothing/under/controller,/obj/item/clothing/head/controller,/obj/item/clothing/suit/controller,/turf/simulated/floor/wood,/area/storage/eva)
+"aq" = (/obj/structure/rack,/obj/item/clothing/under/shmotocka,/obj/item/clothing/under/shmotocka/another,/obj/item/clothing/under/shmotocka/last,/obj/item/clothing/under/shmotocka/yetanother,/turf/simulated/floor/wood,/area/storage/eva)
+"ar" = (/obj/structure/rack,/obj/item/clothing/head/bowler,/obj/item/clothing/head/taphat,/obj/item/clothing/under/burgyi,/turf/simulated/floor/wood,/area/storage/eva)
+"as" = (/obj/structure/rack,/obj/item/clothing/head/shapochka,/obj/item/clothing/head/shapochka/another,/obj/item/clothing/head/shapochka/shlyapka,/obj/item/clothing/under/dresss,/obj/item/clothing/under/dresss/blue,/obj/item/clothing/under/dresss/red,/obj/item/clothing/under/dresss/s,/obj/item/clothing/under/dresss/purple,/obj/item/clothing/under/dresss/orange,/turf/simulated/floor/wood,/area/storage/eva)
+"at" = (/obj/structure/rack,/obj/item/clothing/head/whiteguard/elite,/obj/item/clothing/shoes/whiteguard,/obj/item/clothing/suit/whiteguard/elite,/obj/item/clothing/under/whiteguard/elite,/turf/simulated/floor/wood,/area/storage/eva)
+"au" = (/obj/structure/rack,/obj/item/clothing/head/whiteguard,/obj/item/clothing/suit/whiteguard,/obj/item/clothing/under/whiteguard,/obj/item/clothing/shoes/whiteguard,/turf/simulated/floor/wood,/area/storage/eva)
+"av" = (/obj/structure/table,/obj/item/weapon/saber,/obj/item/umbrella,/obj/item/device/flashlight/lamp/train,/turf/simulated/floor/wood,/area/storage/eva)
+"aw" = (/obj/structure/table,/obj/item/ticket,/obj/item/ticket,/obj/item/ticket,/turf/simulated/floor/wood,/area/storage/eva)
+"ax" = (/obj/structure/table,/obj/item/passport,/obj/item/passport,/obj/item/passport,/obj/item/passport,/obj/item/passport,/obj/item/passport,/obj/item/passport,/obj/item/sheath,/turf/simulated/floor/wood,/area/storage/eva)
+"ay" = (/obj/structure/table,/obj/item/passport/gold,/obj/item/passport/gold,/obj/item/passport/gold,/obj/item/passport/gold,/obj/item/passport/gold,/obj/item/passport/gold,/obj/item/passport/gold,/obj/item/sheath/gold,/turf/simulated/floor/wood,/area/storage/eva)
+"az" = (/turf/simulated/floor/wood,/area/storage/eva)
+"aA" = (/obj/structure/rack,/obj/item/clothing/under/underfrak,/obj/item/clothing/suit/frak,/obj/item/clothing/shoes/laceup,/turf/simulated/floor/wood,/area/storage/eva)
+"aB" = (/obj/structure/rack,/obj/item/clothing/under/underfrak,/obj/item/clothing/suit/frak/blue,/obj/item/clothing/shoes/laceup,/turf/simulated/floor/wood,/area/storage/eva)
+"aC" = (/obj/structure/rack,/obj/item/clothing/under/underfrak,/obj/item/clothing/suit/frak/gray,/obj/item/clothing/shoes/laceup,/turf/simulated/floor/wood,/area/storage/eva)
+"aD" = (/obj/structure/rack,/obj/item/clothing/under/underfrak,/obj/item/clothing/suit/frak/grey,/obj/item/clothing/shoes/laceup,/turf/simulated/floor/wood,/area/storage/eva)
+"aE" = (/obj/structure/rack,/obj/item/clothing/under/underfrak,/obj/item/clothing/suit/frak/purple,/obj/item/clothing/shoes/laceup,/turf/simulated/floor/wood,/area/storage/eva)
+"aF" = (/obj/structure/rack,/obj/item/clothing/under/underfrak,/obj/item/clothing/suit/frak/red,/obj/item/clothing/shoes/laceup,/turf/simulated/floor/wood,/area/storage/eva)
+"aG" = (/obj/structure/mineral_door/wood,/turf/simulated/floor/wood,/area/storage/eva)
+"aH" = (/turf/simulated/wall,/area/security/prison)
+"aI" = (/turf/simulated/floor/wood,/area/security/prison)
+"aJ" = (/obj/structure/grille,/obj/structure/window/reinforced,/obj/structure/window/reinforced{dir = 1},/obj/structure/window/reinforced{dir = 8},/turf/simulated/floor/plating,/area/security/prison)
+"aK" = (/obj/structure/grille,/obj/structure/window/reinforced,/obj/structure/window/reinforced{dir = 1},/obj/structure/window/reinforced{dir = 4},/turf/simulated/floor/plating,/area/security/prison)
+"aL" = (/obj/structure/sign/double/barsign,/turf/simulated/wall,/area/security/prison)
+"aM" = (/obj/effect/landmark{name = "JoinLate"},/obj/effect/landmark/start{name = "Captain"},/turf/simulated/floor,/area/security/prison)
+"aN" = (/obj/item/clothing/suit/space/rig/syndi,/obj/item/clothing/mask/breath,/turf/simulated/floor,/area/security/prison)
+"aO" = (/obj/item/weapon/screwdriver,/obj/structure/toilet,/turf/simulated/floor,/area/security/prison)
+"aP" = (/obj/machinery/power/apc{cell_type = 12500; dir = 1; name = "North APC"; pixel_y = 24; start_charge = 100},/obj/item/clothing/under/shmotocka,/obj/item/clothing/under/shmotocka/another,/obj/item/clothing/under/shmotocka/last,/obj/item/clothing/under/shmotocka/yetanother,/turf/simulated/floor,/area/security/prison)
+"aQ" = (/obj/item/clothing/under/underfrak,/turf/simulated/floor,/area/security/prison)
+"aR" = (/obj/machinery/light{dir = 1},/turf/simulated/floor,/area/security/prison)
+"aS" = (/turf/simulated/floor,/area/security/prison)
+"aT" = (/obj/machinery/vrpod,/turf/simulated/floor,/area/security/prison)
+"aU" = (/turf/space,/area/shuttle/escape_pod1/centcom)
+"aV" = (/obj/item/weapon/tank/emergency_oxygen/double,/turf/simulated/floor,/area/security/prison)
+"aW" = (/obj/item/clothing/head/helmet/space/rig/syndi,/turf/simulated/floor,/area/security/prison)
+"aX" = (/obj/item/weapon/kitchenknife,/turf/simulated/floor,/area/security/prison)
+"aY" = (/obj/machinery/door_control/vent_control{desc = "A heavy lever that hydraulically operates the primary reactor vents. Push it towards the core to open the vents."; id = "EngineVent"; name = "Emergency Vent Control"},/turf/simulated/floor,/area/security/prison)
+"aZ" = (/obj/effect/landmark{name = "CyberSpace"},/turf/simulated/floor,/area/security/prison)
+"ba" = (/obj/structure/writersdesk,/turf/simulated/floor,/area/security/prison)
+"bb" = (/obj/machinery/light{icon_state = "tube1"; dir = 8},/obj/item/weapon/storage/toolbox/emergency,/turf/simulated/floor,/area/security/prison)
+"bc" = (/obj/item/weapon/storage/toolbox/electrical,/turf/simulated/floor,/area/security/prison)
+"bd" = (/obj/item/weapon/storage/toolbox/mechanical,/turf/simulated/floor,/area/security/prison)
+"be" = (/obj/item/device/healthanalyzer,/turf/simulated/floor,/area/security/prison)
+"bf" = (/obj/item/weapon/surgicaldrill,/turf/simulated/floor,/area/security/prison)
+"bg" = (/obj/machinery/bioprinter/prosthetics,/turf/simulated/floor,/area/security/prison)
+"bh" = (/obj/multiz/ladder,/turf/simulated/floor,/area/security/prison)
+"bi" = (/obj/machinery/computer/communications,/turf/simulated/floor,/area/security/prison)
+"bj" = (/obj/item/weapon/gun/energy/gun,/turf/simulated/floor,/area/security/prison)
+"bk" = (/obj/item/stack/sheet/glass{amount = 50},/turf/simulated/floor,/area/security/prison)
+"bl" = (/obj/item/weapon/reagent_containers/glass/beaker,/obj/item/stack/sheet/metal{amount = 50},/turf/simulated/floor,/area/security/prison)
+"bm" = (/obj/item/stack/sheet/plasteel{amount = 50},/turf/simulated/floor,/area/security/prison)
+"bn" = (/obj/effect/landmark/start{name = "AI"},/turf/simulated/floor,/area/security/prison)
+"bo" = (/obj/machinery/mecha_part_fabricator,/turf/simulated/floor{icon_state = "white"},/area/security/prison)
+"bp" = (/obj/machinery/computer/rdconsole/robotics,/turf/simulated/floor{icon_state = "white"},/area/security/prison)
+"bq" = (/obj/item/weapon/reagent_containers/glass/bottle/urine,/obj/machinery/r_n_d/destructive_analyzer,/turf/simulated/floor{icon_state = "white"},/area/security/prison)
+"br" = (/turf/simulated/floor/open,/area/security/prison)
+"bs" = (/obj/machinery/door/airlock/maintenance,/turf/simulated/floor,/area/security/prison)
+"bt" = (/obj/machinery/door/poddoor{icon_state = "pdoor1"; id = "EngineVent"; name = "Engine Core Vent"; p_open = 0},/turf/simulated/floor,/area/security/prison)
+"bu" = (/turf/simulated/shuttle/wall{dir = 8; icon_state = "wall_space"},/area/shuttle/escape_pod1/station)
+"bv" = (/turf/simulated/shuttle/wall{tag = "icon-wall"; icon_state = "wall"; dir = 2},/area/shuttle/escape_pod1/station)
+"bw" = (/obj/structure/shuttle/window{icon = 'icons/turf/shuttle.dmi'; icon_state = "window1"},/turf/simulated/shuttle/floor,/area/shuttle/escape_pod1/station)
+"bx" = (/obj/machinery/door/unpowered/shuttle,/turf/simulated/shuttle/floor,/area/shuttle/escape_pod1/station)
+"by" = (/turf/simulated/shuttle/wall{dir = 1; icon_state = "wall_space"},/area/shuttle/escape_pod1/station)
+"bz" = (/turf/space/transit/west/shuttlespace_we11,/area/shuttle/escape_pod1/transit)
+"bA" = (/turf/space/transit/west/shuttlespace_we12,/area/shuttle/escape_pod1/transit)
+"bB" = (/turf/space/transit/west/shuttlespace_we13,/area/shuttle/escape_pod1/transit)
+"bC" = (/turf/space/transit/west/shuttlespace_we1,/area/shuttle/escape_pod1/transit)
+"bD" = (/turf/space/transit/west/shuttlespace_we2,/area/shuttle/escape_pod1/transit)
+"bE" = (/turf/space/transit/west/shuttlespace_we3,/area/shuttle/escape_pod1/transit)
+"bF" = (/turf/space/transit/west/shuttlespace_we4,/area/shuttle/escape_pod1/transit)
+"bG" = (/obj/machinery/light{dir = 1},/obj/structure/stool/bed/chair,/obj/machinery/camera/autoname,/turf/simulated/shuttle/floor,/area/shuttle/escape_pod1/station)
+"bH" = (/obj/structure/stool/bed/chair,/turf/simulated/shuttle/floor,/area/shuttle/escape_pod1/station)
+"bI" = (/obj/structure/closet/walllocker/emerglocker/north,/obj/structure/stool/bed/chair,/turf/simulated/shuttle/floor,/area/shuttle/escape_pod1/station)
+"bJ" = (/turf/simulated/shuttle/floor,/area/shuttle/escape_pod1/station)
+"bK" = (/obj/machinery/light{dir = 1},/obj/structure/stool/bed/chair,/turf/simulated/shuttle/floor,/area/shuttle/escape_pod1/station)
+"bL" = (/turf/simulated/shuttle/wall{tag = "icon-wall (EAST)"; icon_state = "wall"; dir = 4},/area/shuttle/escape_pod1/station)
+"bM" = (/turf/space/transit/west/shuttlespace_we6,/area/shuttle/escape_pod1/transit)
+"bN" = (/turf/space/transit/west/shuttlespace_we7,/area/shuttle/escape_pod1/transit)
+"bO" = (/turf/space/transit/west/shuttlespace_we8,/area/shuttle/escape_pod1/transit)
+"bP" = (/turf/space/transit/west/shuttlespace_we9,/area/shuttle/escape_pod1/transit)
+"bQ" = (/turf/space/transit/west/shuttlespace_we10,/area/shuttle/escape_pod1/transit)
+"bR" = (/turf/space/transit/west/shuttlespace_we14,/area/shuttle/escape_pod1/transit)
+"bS" = (/obj/machinery/camera/autoname{dir = 8},/turf/simulated/shuttle/floor,/area/shuttle/escape_pod1/station)
+"bT" = (/turf/space/transit/west/shuttlespace_we15,/area/shuttle/escape_pod1/transit)
+"bU" = (/obj/machinery/light,/obj/structure/stool/bed/chair{dir = 1},/turf/simulated/shuttle/floor,/area/shuttle/escape_pod1/station)
+"bV" = (/obj/structure/stool/bed/chair{dir = 1},/turf/simulated/shuttle/floor,/area/shuttle/escape_pod1/station)
+"bW" = (/obj/structure/closet/walllocker/emerglocker/south,/obj/structure/stool/bed/chair{dir = 1},/turf/simulated/shuttle/floor,/area/shuttle/escape_pod1/station)
+"bX" = (/turf/space/transit/west/shuttlespace_we5,/area/shuttle/escape_pod1/transit)
+"bY" = (/turf/simulated/shuttle/wall{icon_state = "wall_space"},/area/shuttle/escape_pod1/station)
+"bZ" = (/turf/simulated/shuttle/wall{dir = 4; icon_state = "wall_space"},/area/shuttle/escape_pod1/station)
+"ca" = (/obj/effect/landmark/zcontroller{down = 1; down_target = 3; up = 0; up_target = 0},/turf/space,/area)
+"cb" = (/turf/simulated/wall,/area/bridge/meeting_room)
+"cc" = (/turf/simulated/floor,/area/bridge/meeting_room)
+"cd" = (/obj/machinery/portable_atmospherics/canister/toxins,/turf/simulated/floor,/area/bridge/meeting_room)
+"ce" = (/obj/item/weapon/flame/lighter/zippo,/turf/simulated/floor,/area/bridge/meeting_room)
+"cf" = (/obj/multiz/ladder{icon_state = "ladderup"},/turf/simulated/floor,/area/bridge/meeting_room)
+"cg" = (/obj/machinery/portable_atmospherics/canister/oxygen,/turf/simulated/floor,/area/bridge/meeting_room)
+"ch" = (/obj/effect/landmark/zcontroller{down = 0; down_target = 0; up = 1; up_target = 2},/turf/space,/area)
+"ci" = (/turf/space,/area/chapel/main)
+"cj" = (/turf/simulated/floor/engine/vacuum,/area)
+"ck" = (/obj/effect/landmark/zcontroller{down = 1; down_target = 3},/turf/space,/area)
 
 (1,1,1) = {"
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
@@ -146,28 +167,23 @@ aaaaaaaaaaaaaaaaaaaaanananananananananaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aaaaaaaaaaaaaaaaaaaaanananananananananaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aaaaaaaaaaaaaaaaaaaaanananananananananaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aaaaaaaaaaaaaaaaaaaaanananananananananaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaaaaaaaaoaoaoaoaoapaqaraoaoaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaaaaaaaaoasatauavawaxawayaoaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-azazazazazazazazazaaaoaAaBawaCaDaEaFawaoaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-azazazazazazazazazaaaoaGaHaIaJaKaLaMawaoaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-azazazazazazazazazaaaoaNawaOaPaQaRawaSaoaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-azazazazazazazazazaaaoaoaoaoawaTaUaVawaoaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-azazazazazazazazazaaaoaWaWaoawawawawaXaoaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaaaaaaaaoaoaoaoaoaYaoaoaoaoaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaaaaaaaaaaZbabbbabcbabbbabdaaaaaaaaaaaabebfbgbhbibhbibjbkaaaaaaaaaa
-aaaaaaaaaaaaaaaaaaaaaabbblbmbnbobnbmbpbqaaaaaaaaaaaabrbsbtbubvbebfbgbwaaaaaaaaaa
-aaaaaaaaaaaaaaaaaaaaaabbbobobobobobobxbqaaaaaaaaaaaabsbtbubvbebfbgbwbyaaaaaaaaaa
-aaaaaaaaaaaaaaaaaaaaaabbbzbAbBbobBbAbzbqaaaaaaaaaaaabibjbkbCbrbsbtbubvaaaaaaaaaa
-aaaaaaaaaaaaaaaaaaaaaabDbabbbabcbabbbabEaaaaaaaaaaaabubvbebfbgbwbybhbiaaaaaaaaaa
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaoaoaoaoaoaoaoaoaoaoaoaoaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaoapaqarasatauavawaxayaoaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaoazazazazazazazazazazaoaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaoaAaBaCaDaEaFaoaoaGaoaoaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaoaoaoaoaoaoaoaoaHaIaHaHaHaJaKaLaHaHaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaHaMaNaOaPaQaRaSaTaHaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aUaUaUaUaUaUaUaUaUaaaHaVaWaSaXaYaZbaaSaHaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aUaUaUaUaUaUaUaUaUaaaHbbbcbdbebfbgbhaSaHaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aUaUaUaUaUaUaUaUaUaaaHbiaSbjbkblbmaSbnaHaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aUaUaUaUaUaUaUaUaUaaaHaHaHaHaSbobpbqaSaHaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aUaUaUaUaUaUaUaUaUaaaHbrbraHaSaSaSaSbsaHaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaHaHaHaHaHbtaHaHaHaHaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaabubvbwbvbxbvbwbvbyaaaaaaaaaaaabzbAbBbCbDbCbDbEbFaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaabwbGbHbIbJbIbHbKbLaaaaaaaaaaaabMbNbObPbQbzbAbBbRaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaabwbJbJbJbJbJbJbSbLaaaaaaaaaaaabNbObPbQbzbAbBbRbTaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaabwbUbVbWbJbWbVbUbLaaaaaaaaaaaabDbEbFbXbMbNbObPbQaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaabYbvbwbvbxbvbwbvbZaaaaaaaaaaaabPbQbzbAbBbRbTbCbDaaaaaaaaaa
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
@@ -176,7 +192,12 @@ aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-bFaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+caaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 "}
 
 (1,1,3) = {"
@@ -193,14 +214,14 @@ aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaaaaaaabGbGbGbGbGbGbGbGbGbGaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaaaaaaabGbHbHbHbHbHbHbHbHbGaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaaaaaaabGbHbHbHbHbHbIbHbHbGaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaaaaaaabGbHbHbHbHbIbJbKbHbGaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaaaaaaabGbHbHbHbHbHbLbHbHbGaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaaaaaaabGbHbHbHbHbHbHbHbHbGaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaaaaaaabGbHbHbHbHbHbHbHbHbGaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaaaaaaabGbGbGbGbGbGbGbGbGbGaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaacbcbcbcbcbcbcbcbcbcbaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaacbcccccccccccccccccbaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaacbcccccccccccdcccccbaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaacbcccccccccdcecfcccbaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaacbcccccccccccgcccccbaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaacbcccccccccccccccccbaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaacbcccccccccccccccccbaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaacbcbcbcbcbcbcbcbcbcbaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
@@ -219,7 +240,7 @@ aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-bMaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+chaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 "}
 
 (1,1,4) = {"
@@ -236,15 +257,15 @@ aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaaaaabNbObObObObObObObObObOaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaaaaabNbObObObObObObObObObOaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaaaaabNbObObObObObObObObObOaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaaaaabNbObObObObObObObObObOaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaaaaabNbObObObObObObObObObOaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaaaaabNbObObObObObObObObObOaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaaaaabNbObObObObObObObObObOaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaaaaabNbObObObObObObObObObOaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaaaaabNaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaacicjcjcjcjcjcjcjcjcjcjaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaacicjcjcjcjcjcjcjcjcjcjaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaacicjcjcjcjcjcjcjcjcjcjaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaacicjcjcjcjcjcjcjcjcjcjaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaacicjcjcjcjcjcjcjcjcjcjaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaacicjcjcjcjcjcjcjcjcjcjaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaacicjcjcjcjcjcjcjcjcjcjaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaacicjcjcjcjcjcjcjcjcjcjaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaciaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
@@ -262,7 +283,7 @@ aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-bPaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+ckaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 "}
 
 (1,1,5) = {"

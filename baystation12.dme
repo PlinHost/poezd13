@@ -40,6 +40,14 @@
 #define FILE_DIR "icons/spideros_icons"
 #define FILE_DIR "icons/Testing"
 #define FILE_DIR "icons/turf"
+#define FILE_DIR "icons/urist"
+#define FILE_DIR "icons/urist/events"
+#define FILE_DIR "icons/urist/items"
+#define FILE_DIR "icons/urist/items/clothes"
+#define FILE_DIR "icons/urist/jungle"
+#define FILE_DIR "icons/urist/structures&machinery"
+#define FILE_DIR "icons/urist/turf"
+#define FILE_DIR "icons/urist/vehicles"
 #define FILE_DIR "icons/vending_icons"
 #define FILE_DIR "nano"
 #define FILE_DIR "nano/images"
@@ -69,11 +77,14 @@
 #define DEBUG
 // END_PREFERENCES
 // BEGIN_INCLUDE
+#include "train.dm"
+#include "Poezd.dmm"
 #include "code\global.dm"
 #include "code\hub.dm"
 #include "code\names.dm"
 #include "code\setup.dm"
 #include "code\stylesheet.dm"
+#include "code\uriststructures.dm"
 #include "code\world.dm"
 #include "code\__HELPERS\3d_movement.dm"
 #include "code\__HELPERS\cmp.dm"
@@ -1507,6 +1518,5 @@
 #include "code\ZAS\Zone.dm"
 #include "interface\interface.dm"
 #include "interface\skin.dmf"
-#include "maps\test.dmm"
 #include "maps\encounters\telesat.dmm"
 // END_INCLUDE

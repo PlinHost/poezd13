@@ -9,7 +9,7 @@
 	icon_state = "whiteguard_elite"
 	item_color = "whiteguard_elite"
 
-/obj/item/clothing/under/whiteguard/elite
+/obj/item/clothing/under/whiteguard/unter
 	name = "unter officer pants"
 	icon_state = "unter"
 	item_color = "unter"
@@ -39,6 +39,10 @@
 /obj/item/clothing/head/whiteguard/elite
 	name = "officer cap"
 	icon_state = "whiteguard_elite"
+
+/obj/item/clothing/head/whiteguard/unter
+	name = "unter officer cap"
+	icon_state = "unter"
 
 /obj/item/clothing/shoes/whiteguard
 	name = "high boots"

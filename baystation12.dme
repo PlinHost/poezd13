@@ -1408,6 +1408,7 @@
 #include "code\modules\virus2\helpers.dm"
 #include "code\modules\virus2\isolator.dm"
 #include "code\modules\virus2\items_devices.dm"
+#include "code\train\juke_old.dm"
 #include "code\train\shuttle.dm"
 #include "code\train\train.dm"
 #include "code\train\clothing\burgyi.dm"

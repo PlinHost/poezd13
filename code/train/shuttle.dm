@@ -37,7 +37,7 @@ proc/move_train()
 		else
 			toArea = locate(/area/train/go)
 		train_location = 1
-		world << sound('train_loop.ogg', 1, 0, 917)
+		world << sound('train_loop.ogg', 1, 0, 917, 20)
 	fromArea.move_contents_to(toArea)
 	return
 
@@ -60,3 +60,11 @@ proc/toggle_train()
 		train_time = 1
 	fromArea.move_contents_to(toArea)
 	return
+
+/obj/effect/step_trigger/kebab
+	Trigger(var/atom/A)
+		if(istype(A, /mob))
+			var/mob/M = A
+			if(M.client)
+				M << "You are lost forever."
+		qdel(A)

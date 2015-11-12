@@ -316,6 +316,11 @@ proc/snowtraintime()
 	name = "wood wall"
 	icon = 'icons/urist/turf/walls.dmi'
 	icon_state = "wood0"
+	var/walltype = "wood"
+
+	New()
+		relativewall_neighbours()
+		..()
 
 /turf/unsimulated/wall/stone
 	name = "stone wall"

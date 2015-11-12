@@ -420,12 +420,26 @@ But you can call procs that are of type /mob/living/carbon/human/proc/ for that 
 	if(!ishuman(M))
 		alert("Invalid mob")
 		return
-	var/list/dresspacks = list(
-		"strip",
-		"passport",
-		"gold"
-		)
-	var/dresscode = input("Select dress for [M]", "Robust quick dress shop") as null|anything in dresspacks
+	var/list/dresspacks
+	if(M.gender == MALE)
+		dresspacks = list(
+			"strip",
+			"civilian",
+			"aristocrat",
+			"trainman",
+			"soldier",
+			"unter",
+			"captain",
+			"hussar"
+			)
+	else
+		dresspacks = list(
+			"strip",
+			"trap"
+			)
+	var/dresscode = input("Select dress for [M]", "Equipment manager") as null|anything in dresspacks
+	var/type
+	var/list/types
 	if (isnull(dresscode))
 		return
 	for (var/obj/item/I in M)
@@ -435,12 +449,72 @@ But you can call procs that are of type /mob/living/carbon/human/proc/ for that 
 	switch(dresscode)
 		if ("strip")
 			//do nothing
-		if ("passport")
-			M.equip_if_possible(new /obj/item/passport(M), slot_wear_id)
-		if ("gold")
-			M.equip_if_possible(new /obj/item/passport/gold(M), slot_wear_id)
+		if ("civilian")
+			M.equip_to_slot_or_del(new /obj/item/clothing/shoes/laceup(M), slot_shoes)
+			types = typesof(/obj/item/clothing/under/shmotochka)
+			type = input("Uniform:", "Equipment manager") as anything in types
+			M.equip_to_slot_or_del(new type(M), slot_w_uniform)
+			M.equip_to_slot_or_del(new type(M), slot_wear_suit)
+			types = list (null)
+			types += typesof(/obj/item/clothing/head/shapochka)
+			type = input("Hat:", "Equipment manager") as anything in types
+			M.equip_to_slot_or_del(new type(M), slot_head)
+			M.equip_to_slot_or_del(new /obj/item/passport(M), slot_wear_id)
+		if ("aristocrat")
+			M.equip_to_slot_or_del(new /obj/item/clothing/shoes/laceup(M), slot_shoes)
+			types = list (/obj/item/clothing/under/burgyi, /obj/item/clothing/under/underfrak)
+			type = input("Uniform:", "Equipment manager") as anything in types
+			M.equip_to_slot_or_del(new type(M), slot_w_uniform)
+			types = list (null)
+			types += typesof(/obj/item/clothing/suit/frak)
+			type = input("Suit:", "Equipment manager") as anything in types
+			M.equip_to_slot_or_del(new type(M), slot_wear_suit)
+			types = list (null, /obj/item/clothing/head/bowler, /obj/item/clothing/head/taphat)
+			type = input("Hat:", "Equipment manager") as anything in types
+			M.equip_to_slot_or_del(new type(M), slot_head)
+			M.equip_to_slot_or_del(new /obj/item/passport/gold(M), slot_wear_id)
+		if ("trainman")
+			M.equip_to_slot_or_del(new /obj/item/clothing/shoes/laceup(M), slot_shoes)
+			M.equip_to_slot_or_del(new /obj/item/clothing/under/controller(M), slot_w_uniform)
+			M.equip_to_slot_or_del(new /obj/item/clothing/suit/controller(M), slot_wear_suit)
+			M.equip_to_slot_or_del(new /obj/item/clothing/head/controller(M), slot_head)
+			M.equip_to_slot_or_del(new /obj/item/passport(M), slot_wear_id)
+		if ("soldier")
+			M.equip_to_slot_or_del(new /obj/item/clothing/shoes/whiteguard(M), slot_shoes)
+			M.equip_to_slot_or_del(new /obj/item/clothing/under/whiteguard(M), slot_w_uniform)
+			M.equip_to_slot_or_del(new /obj/item/clothing/suit/whiteguard(M), slot_wear_suit)
+			M.equip_to_slot_or_del(new /obj/item/clothing/head/whiteguard(M), slot_head)
+			M.equip_to_slot_or_del(new /obj/item/passport/gold(M), slot_wear_id)
+		if ("unter")
+			M.equip_to_slot_or_del(new /obj/item/clothing/shoes/whiteguard(M), slot_shoes)
+			M.equip_to_slot_or_del(new /obj/item/clothing/under/whiteguard/unter(M), slot_w_uniform)
+			M.equip_to_slot_or_del(new /obj/item/clothing/suit/whiteguard/unter(M), slot_wear_suit)
+			M.equip_to_slot_or_del(new /obj/item/clothing/head/whiteguard/unter(M), slot_head)
+			M.equip_to_slot_or_del(new /obj/item/passport/gold(M), slot_wear_id)
+		if ("captain")
+			M.equip_to_slot_or_del(new /obj/item/clothing/shoes/whiteguard(M), slot_shoes)
+			M.equip_to_slot_or_del(new /obj/item/clothing/under/whiteguard/elite(M), slot_w_uniform)
+			M.equip_to_slot_or_del(new /obj/item/clothing/suit/whiteguard/elite(M), slot_wear_suit)
+			M.equip_to_slot_or_del(new /obj/item/clothing/head/whiteguard/elite(M), slot_head)
+			M.equip_to_slot_or_del(new /obj/item/passport/gold(M), slot_wear_id)
+		if ("hussar")
+			M.equip_to_slot_or_del(new /obj/item/clothing/shoes/whiteguard(M), slot_shoes)
+			types = typesof(/obj/item/clothing/under/gusar)
+			type = input("Uniform:", "Equipment manager") as anything in types
+			M.equip_to_slot_or_del(new type(M), slot_w_uniform)
+			types = list (null, /obj/item/clothing/suit/poruchik)
+			type = input("Suit:", "Equipment manager") as anything in types
+			M.equip_to_slot_or_del(new type(M), slot_wear_suit)
+			M.equip_to_slot_or_del(new /obj/item/passport/gold(M), slot_wear_id)
+		if ("trap")
+			types = typesof(/obj/item/clothing/under/dresss)
+			type = input("Dress:", "Equipment manager") as anything in types
+			M.equip_to_slot_or_del(new type(M), slot_w_uniform)
+			M.equip_to_slot_or_del(new /obj/item/passport/gold(M), slot_wear_id)
 
 	M.regenerate_icons()
+	if(alert("Is everything ok?","Equipment manager","Yes","No") == "No")
+		return cmd_admin_dress(M)
 
 	log_admin("[key_name(usr)] changed the equipment of [key_name(M)] to [dresscode].")
 	message_admins("\blue [key_name_admin(usr)] changed the equipment of [key_name_admin(M)] to [dresscode]..", 1)

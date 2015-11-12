@@ -214,8 +214,12 @@
 /obj/structure/mineral_door/wood
 	mineralType = "wood"
 	hardness = 1
+	var/locked = 0
+	var/id = 0
 
 	Open()
+		if(locked)
+			return
 		isSwitchingStates = 1
 		playsound(loc, 'sound/effects/doorcreaky.ogg', 100, 1)
 		flick("[mineralType]opening",src)
@@ -242,6 +246,19 @@
 			for(var/i = 1, i <= oreAmount, i++)
 				new/obj/item/stack/sheet/wood(get_turf(src))
 		qdel(src)
+
+	attackby(obj/item/W as obj, mob/user as mob)
+		if(istype(W,/obj/item/doorkey))
+			var/obj/item/doorkey/K = W
+			if((K.id == src.id) && (state == 0))
+				if(locked)
+					locked = 0
+					user << "You unlock the [name]."
+				else
+					locked = 1
+					user << "You lock the [name]."
+		else
+			return ..()
 
 /obj/structure/mineral_door/resin
 	mineralType = "resin"

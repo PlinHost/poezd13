@@ -21,6 +21,9 @@
 		for(var/obj/structure/falserwall/W in orange(src,1))
 			if(abs(src.x-W.x)-abs(src.y-W.y)) //doesn't count diagonal walls
 				junction |= get_dir(src,W)
+		for(var/turf/unsimulated/wall/wood/W in orange(src,1))
+			if(abs(src.x-W.x)-abs(src.y-W.y)) //doesn't count diagonal walls
+				junction |= get_dir(src,W)
 
 /* Commenting this out for now until we figure out what to do with shuttle smooth walls, if anything.
    As they are now, they sort of work screwy and may need further coding. Or just be scrapped.*/
@@ -46,6 +49,9 @@
 	else if (istype(src,/obj/structure/falsewall))
 		var/obj/structure/falsewall/fwall = src
 		fwall.icon_state = "[fwall.mineral][junction]"
+	else if(istype(src,/turf/unsimulated/wall/wood))
+		var/turf/unsimulated/wall/wood/wall = src
+		wall.icon_state = "[wall.walltype][junction]"
 /*	else if(istype(src,/turf/simulated/shuttle/wall))
 		var/newicon = icon;
 		var/newiconstate = icon_state;
@@ -87,6 +93,8 @@
 		W.relativewall()
 		W.update_icon()//Refreshes the wall to make sure the icons don't desync
 	for(var/obj/structure/falserwall/W in range(src,1))
+		W.relativewall()
+	for(var/turf/unsimulated/wall/wood/W in range(src,1))
 		W.relativewall()
 	return
 

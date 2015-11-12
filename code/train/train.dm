@@ -3,6 +3,11 @@ var/list/eventwarp1 = list()
 var/list/eventwarp2 = list()
 var/list/eventwarp3 = list()
 
+/obj/item/clothing/under
+	displays_id = 0	//NO ID
+
+/null	//null
+
 /turf/unsimulated/floor/uristturf/train/grass
 	name = "grass"
 	icon = 'icons/urist/events/train.dmi'

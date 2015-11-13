@@ -8,14 +8,54 @@ var/list/eventwarp3 = list()
 
 /null	//null
 
+/turf/unsimulated/floor/uristturf/train/rel
+	name = "relsi"
+	icon = 'icons/рельсы.dmi'
+	icon_state = "r"
+
+/turf/unsimulated/floor/uristturf/train/anrel
+	name = "anrelsi"
+	icon = 'icons/рельсы.dmi'
+	icon_state = "anr"
+
+/turf/unsimulated/floor/uristturf/train/sp
+	name = "sheben"
+	icon = 'icons/рельсы.dmi'
+	icon_state = "sp"
+
+/turf/unsimulated/floor/uristturf/train/ansp
+	name = "ansheben"
+	icon = 'icons/рельсы.dmi'
+	icon_state = "ansp"
+
+/turf/unsimulated/floor/uristturf/train/spl
+	name = "lsheben"
+	icon = 'icons/рельсы.dmi'
+	icon_state = "spl"
+
+/turf/unsimulated/floor/uristturf/train/anspl
+	name = "anlsheben"
+	icon = 'icons/рельсы.dmi'
+	icon_state = "anspl"
+
+/turf/unsimulated/floor/uristturf/train/spr
+	name = "rsheben"
+	icon = 'icons/рельсы.dmi'
+	icon_state = "spr"
+
+/turf/unsimulated/floor/uristturf/train/anspr
+	name = "anrsheben"
+	icon = 'icons/рельсы.dmi'
+	icon_state = "anspr"
+
 /turf/unsimulated/floor/uristturf/train/grass
 	name = "grass"
-	icon = 'icons/urist/events/train.dmi'
-	icon_state = "g"
+	icon = 'icons/sss.dmi'
+	icon_state = "gr"
 
 /turf/unsimulated/floor/uristturf/train/grassmoving
 	name = "grass"
-	icon = 'icons/urist/events/train.dmi'
+	icon = 'icons/sss.dmi'
 	icon_state = "gcircuit"
 
 /turf/unsimulated/floor/uristturf/train/grass_night

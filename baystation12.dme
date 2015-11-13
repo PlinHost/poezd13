@@ -1415,6 +1415,7 @@
 #include "code\train\clothing\frak.dm"
 #include "code\train\clothing\shmotochki.dm"
 #include "code\train\clothing\white.dm"
+#include "code\train\item\cards.dm"
 #include "code\train\item\key.dm"
 #include "code\train\item\lamp.dm"
 #include "code\train\item\passport.dm"

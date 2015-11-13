@@ -250,7 +250,7 @@
 	attackby(obj/item/W as obj, mob/user as mob)
 		if(istype(W,/obj/item/doorkey))
 			var/obj/item/doorkey/K = W
-			if((K.id == src.id) && (state == 0))
+			if((!K.id || (K.id == src.id)) && (state == 0))
 				if(locked)
 					locked = 0
 					user << "You unlock the [name]."

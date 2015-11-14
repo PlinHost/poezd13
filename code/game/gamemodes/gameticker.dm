@@ -44,7 +44,7 @@ var/global/datum/controller/gameticker/ticker
 	'sound/music/space.ogg',\
 	'sound/music/traitor.ogg',\
 	'sound/music/title2.ogg',\
-	'sound/music/clouds.s3m',\
+	'sound/music/clouds.ogg',\
 	'sound/music/clown.ogg',\
 	'sound/music/space_oddity.ogg',\
 	'sound/music/lobby_music.ogg')//Ground Control to Major Tom, this song is cool, what's going on?

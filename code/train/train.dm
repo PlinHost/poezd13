@@ -48,6 +48,46 @@ var/list/eventwarp3 = list()
 	icon = 'icons/рельсы.dmi'
 	icon_state = "anspr"
 
+/turf/unsimulated/floor/uristturf/train/reln
+	name = "relsin"
+	icon = 'icons/рельсы.dmi'
+	icon_state = "rn"
+
+/turf/unsimulated/floor/uristturf/train/anreln
+	name = "anrelsin"
+	icon = 'icons/рельсы.dmi'
+	icon_state = "anrn"
+
+/turf/unsimulated/floor/uristturf/train/spn
+	name = "shebenn"
+	icon = 'icons/рельсы.dmi'
+	icon_state = "spn"
+
+/turf/unsimulated/floor/uristturf/train/anspn
+	name = "anshebenn"
+	icon = 'icons/рельсы.dmi'
+	icon_state = "anspn"
+
+/turf/unsimulated/floor/uristturf/train/spln
+	name = "lshebenn"
+	icon = 'icons/рельсы.dmi'
+	icon_state = "spln"
+
+/turf/unsimulated/floor/uristturf/train/anspln
+	name = "anlshebenn"
+	icon = 'icons/рельсы.dmi'
+	icon_state = "anspln"
+
+/turf/unsimulated/floor/uristturf/train/sprn
+	name = "rshebenn"
+	icon = 'icons/рельсы.dmi'
+	icon_state = "sprn"
+
+/turf/unsimulated/floor/uristturf/train/ansprn
+	name = "anrshebenn"
+	icon = 'icons/рельсы.dmi'
+	icon_state = "ansprn"
+
 /turf/unsimulated/floor/uristturf/train/grass
 	name = "grass"
 	icon = 'icons/sss.dmi'

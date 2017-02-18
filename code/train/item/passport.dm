@@ -24,6 +24,15 @@
 	icon_state = "passport[_color][open ? "-o" : ""]"
 	user << sound('passport.ogg')
 
+/obj/item/passport/verb/show()
+	set name = "Show passport"
+	set category = "Object"
+	set src in usr
+	if(!open)
+		attack_self(usr)
+	for(var/mob/O in viewers(usr, null))
+		O.show_message("[usr] shows you: \icon[src] [src.name]: Belongs to [registered_name].")
+
 /obj/item/passport/gold
 	icon_state = "passport5"
 

@@ -153,8 +153,8 @@
 		return 0
 
 	proc/fixText(text,user)
-		text = replacetext(text,"{USER}","[user]")
-		text = replacetext(text,"{HOLDER}","[holder.name]")
+		text = text2list2text(text,"{USER}","[user]")
+		text = text2list2text(text,"{HOLDER}","[holder.name]")
 		return text
 
 	custom_action(index, diff, used_atom, var/mob/user)

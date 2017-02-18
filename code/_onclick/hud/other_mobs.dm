@@ -11,7 +11,7 @@
 	mymob.blind.icon_state = "blackimageoverlay"
 	mymob.blind.name = " "
 	mymob.blind.screen_loc = "1,1"
-	mymob.blind.layer = 0
+	mymob.blind.invisibility = 101
 
 /datum/hud/proc/ai_hud()
 	mymob.blind = new /obj/screen()
@@ -19,7 +19,7 @@
 	mymob.blind.icon_state = "blackimageoverlay"
 	mymob.blind.name = " "
 	mymob.blind.screen_loc = "1,1"
-	mymob.blind.layer = 0
+	mymob.blind.invisibility = 101
 	return
 
 /datum/hud/proc/blob_hud(ui_style = 'icons/mob/screen1_Midnight.dmi')

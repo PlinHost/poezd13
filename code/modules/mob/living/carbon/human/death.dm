@@ -113,7 +113,7 @@
 			explosion(location, 0, 0, 3, 4)
 
 		update_canmove()
-		if(client)	blind.layer = 0
+		if(client)	blind.invisibility = 101
 
 	if(!suiciding)
 		unlock_medal("Downsizing", 0, "You are no longer a profitable asset.", "easy")
